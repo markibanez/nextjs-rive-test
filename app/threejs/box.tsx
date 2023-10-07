@@ -20,7 +20,7 @@ const Box = ({ position }: BoxProps) => {
     <mesh
       position={position}
       ref={meshRef}
-      scale={active ? 1.5 : 0.5}
+      scale={active ? 0.5 : 0.125}
       onClick={(event) => setActive(!active)}
       onPointerOver={(event) => setHover(true)}
       onPointerOut={(event) => setHover(false)}

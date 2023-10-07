@@ -11,7 +11,7 @@ const ThreeJsClientPage = () => {
       <ambientLight />
       <pointLight position={[10, 10, 10]} />
 
-      {Array.from({ length: 300 }).map((_, i) => (
+      {Array.from({ length: 1200 }).map((_, i) => (
         <Box
           key={i}
           position={[Math.random() * 10 - 5, Math.random() * 10 - 5, 0]}
